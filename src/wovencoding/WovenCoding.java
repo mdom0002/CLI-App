@@ -104,7 +104,8 @@ public class WovenCoding {
             
                 
         } 
-        System.out.println(Math.abs(x) + Math.abs(y));
+        int distance = Math.abs(x) + Math.abs(y);
+        System.out.println("Maximum number of distance : " + distance);
     }
     }
     

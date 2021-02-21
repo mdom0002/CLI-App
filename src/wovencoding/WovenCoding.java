@@ -20,6 +20,7 @@ public class WovenCoding {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter the command separated by commas (Example: F1,R1,B2,L1,B3) : ");
         // Get input from user as comma separated commands
         String str = input.nextLine();
         //remove the commas
@@ -105,7 +106,7 @@ public class WovenCoding {
                 
         } 
         int distance = Math.abs(x) + Math.abs(y);
-        System.out.println("Maximum number of distance : " + distance);
+        System.out.println("Minimum amount of distance to get back to the starting point : " + distance);
     }
     }
     
